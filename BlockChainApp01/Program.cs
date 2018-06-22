@@ -19,7 +19,7 @@ namespace BlockChainApp01
 	//*							4. It runs on a single computer. There's no distributed aspect to it.
 	//*
 	//*		Revisions:
-	//*						6/22/2018 Added flower box comment
+	//*						6/22/2018 Added flower box comment and committed
 	//****************************************************************************************************************************
 	class Program
 	{

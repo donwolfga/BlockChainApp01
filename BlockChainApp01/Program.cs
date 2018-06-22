@@ -3,13 +3,28 @@
 
 namespace BlockChainApp01
 {
+	//***************************************************************************************************************************
+	//*
+	//*		Name:			BlockChainApp01
+	//*		Author:			Don Wolf
+	//*		Date:			5/2018
+	//*
+	//*		Description:	This program creates the simplest blockchain. 
+	//*						It demonstrates the use and the value of the cryptographic SHA256 hash to tie all the blocks together,
+	//*						creating an immutable blockchain.
+	//*						It's the simplest blockchain because:
+	//*							1. It's in-memory only. Nothing is preserved after it runs.
+	//*							2. It creates a fixed number of blocks.
+	//*							3. The data portion of the blocks is "dummy data" only. No transactions are captured or stored.
+	//*							4. It runs on a single computer. There's no distributed aspect to it.
+	//*
+	//*		Revisions:
+	//*						6/22/2018 Added flower box comment
+	//****************************************************************************************************************************
 	class Program
 	{
 		static void Main(string[] args)
 		{
-			//This simple program creates a simple blockchain, by creating an in-memory array of objects (blocks)
-			//It demonstrates the use and the value of the cryptographic SHA256 hash to tie all the blocks together,
-			//creating an immutable blockchain
 			Console.WriteLine("BlockChainCreator version 1.0");
 			Console.WriteLine("Push button to initiate blockchain creation");
 			Console.ReadKey();
